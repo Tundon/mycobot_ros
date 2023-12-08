@@ -161,7 +161,7 @@
 
 
   <joint name="joint4_to_joint3" type="revolute">
-    <axis xyz=" 0 0 -1" />
+    <axis xyz=" 0 0 1" />
     <limit effort="1000.0" lower="-2.61" upper="2.618" velocity="0" />
     <parent link="link2" />
     <child link="link3" />
@@ -186,7 +186,7 @@
   </joint>
 
   <joint name="joint6output_to_joint6" type="revolute">
-    <axis xyz="0 0 -1" />
+    <axis xyz="0 0 1" />
     <limit effort="1000.0" lower="-3.03" upper="3.0368" velocity="0" />
     <parent link="link5" />
     <child link="link6" />
